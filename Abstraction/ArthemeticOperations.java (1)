@@ -1,0 +1,30 @@
+package abstraction.com;
+
+import java.util.Scanner;
+
+public abstract class ArthemeticOperations {
+     Scanner sc= new Scanner(System.in);
+	
+	public abstract void sum();
+	
+	public abstract int multipication();
+	
+	public abstract int Substraction();
+	
+	public void division()
+	{
+		System.out.println("For division operation");
+		System.out.println("---------------------------------");
+		System.out.println("Enter firstnumber:");
+		int a=sc.nextInt();
+		int num1=a;
+		System.out.println("Enter Second number:");
+		int b= sc.nextInt();
+		int num2=b;
+		int num3= num1/num2;
+		System.out.println("Division : "+num3);
+		
+		
+	}
+
+}

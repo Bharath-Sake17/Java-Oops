@@ -1,0 +1,17 @@
+package abstraction.com;
+
+import java.util.Scanner;
+
+public class Main {
+	Scanner sc= new Scanner(System.in);
+	public static void main(String[] args) {
+		
+		Sum obj = new Sum();
+		obj.sum();
+		obj.multipication();
+		obj.Substraction();
+		obj.division();
+	
+	}
+
+}
